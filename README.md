@@ -1,72 +1,48 @@
-# Employee Management System - StaffCore
+# StaffTrack
 
-A modern and minimal Employee Management System built using React, Vite, and Tailwind CSS. It allows admin users to manage employee data and employees to access personalized dashboards.
+A simple and efficient Employee Management System built with React and Tailwind CSS.
 
-## 🚀 Features
+---
 
-- Admin and Employee login system  
-- Task creation and tracking  
-- Dashboard with task statistics  
-- LocalStorage-based authentication  
-- Dark-themed UI with Tailwind CSS  
-- Toast notifications using react-hot-toast  
+## Project URL
 
-## 🛠️ Tech Stack
+Live demo available at: [https://thunderous-froyo-110127.netlify.app/](https://thunderous-froyo-110127.netlify.app/)
 
-- React (with Context API)  
-- Vite  
-- Tailwind CSS  
-- LocalStorage  
-- react-hot-toast  
+---
 
-## 📁 Project Structure
+## Features
 
-src/  
-├── components/  
-│   ├── Auth/  
-│   └── Dashboard/  
-├── context/  
-├── other/  
-├── utils/  
-├── App.jsx  
-├── index.css  
-└── main.jsx  
+- User authentication (Admin and Employee roles)
+- Admin dashboard for managing employees
+- Employee dashboard to view personal details and tasks
+- Persistent user sessions using localStorage
+- Responsive and modern UI using Tailwind CSS
+- Toast notifications with react-hot-toast
 
-## 📦 Getting Started
+---
 
-1. Clone the Repository  
-   git clone https://github.com/vandana324/Employee_management_system.git  
-   cd Employee_management_system  
+## Tech Stack
 
-2. Install Dependencies  
-   npm install  
+- React (with hooks and context API)
+- Tailwind CSS
+- Vite as build tool
+- react-hot-toast for notifications
+- Git for version control
 
-3. Run the Project  
-   npm run dev  
+---
 
-Then open http://localhost:5173 in your browser.
+## Contribution
 
-## 🧪 Sample Login Credentials
+Feel free to fork the repository and create pull requests. Any improvements or bug fixes are welcome!
 
-Admin:  
-Email: admin@example.com  
-Password: admin123  
+---
 
-Employee:  
-Email: employee1@example.com  
-Password: employee123  
+## License
 
-## 🌐 Deployment
+This project is open source and free to use.
 
-To build for production:  
-npm run build  
+---
 
-Deploy the `dist/` folder to Vercel, Netlify, or GitHub Pages.
+## Contact
 
-## 🧑‍💻 Author
-
-**Vandana** – https://github.com/vandana324
-
-## 📄 License
-
-This project is licensed under the MIT License.
+Created by Vandana — [GitHub](https://github.com/vandana324)
