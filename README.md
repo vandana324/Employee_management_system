@@ -1,12 +1,72 @@
-# React + Vite
+# Employee Management System - StaffCore
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A modern and minimal Employee Management System built using React, Vite, and Tailwind CSS. It allows admin users to manage employee data and employees to access personalized dashboards.
 
-Currently, two official plugins are available:
+## 🚀 Features
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- Admin and Employee login system  
+- Task creation and tracking  
+- Dashboard with task statistics  
+- LocalStorage-based authentication  
+- Dark-themed UI with Tailwind CSS  
+- Toast notifications using react-hot-toast  
 
-## Expanding the ESLint configuration
+## 🛠️ Tech Stack
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+- React (with Context API)  
+- Vite  
+- Tailwind CSS  
+- LocalStorage  
+- react-hot-toast  
+
+## 📁 Project Structure
+
+src/  
+├── components/  
+│   ├── Auth/  
+│   └── Dashboard/  
+├── context/  
+├── other/  
+├── utils/  
+├── App.jsx  
+├── index.css  
+└── main.jsx  
+
+## 📦 Getting Started
+
+1. Clone the Repository  
+   git clone https://github.com/vandana324/Employee_management_system.git  
+   cd Employee_management_system  
+
+2. Install Dependencies  
+   npm install  
+
+3. Run the Project  
+   npm run dev  
+
+Then open http://localhost:5173 in your browser.
+
+## 🧪 Sample Login Credentials
+
+Admin:  
+Email: admin@example.com  
+Password: admin123  
+
+Employee:  
+Email: employee1@example.com  
+Password: employee123  
+
+## 🌐 Deployment
+
+To build for production:  
+npm run build  
+
+Deploy the `dist/` folder to Vercel, Netlify, or GitHub Pages.
+
+## 🧑‍💻 Author
+
+**Vandana** – https://github.com/vandana324
+
+## 📄 License
+
+This project is licensed under the MIT License.
