@@ -21,6 +21,21 @@ Live demo available at: [https://thunderous-froyo-110127.netlify.app/](https://t
 
 ---
 
+## Demo Credentials
+
+### Admin Login
+- **Email**: `admin@example.com`
+- **Password**: `123`
+
+### Employee Logins
+1. **Email**: `employee1@example.com` | **Password**: `123`
+2. **Email**: `employee2@example.com` | **Password**: `123`
+3. **Email**: `employee3@example.com` | **Password**: `123`
+4. **Email**: `employee4@example.com` | **Password**: `123`
+5. **Email**: `employee5@example.com` | **Password**: `123`
+
+---
+
 ## Tech Stack
 
 - React (with hooks and context API)
